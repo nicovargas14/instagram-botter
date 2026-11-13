@@ -31,6 +31,16 @@ O filtro lê IMAGENS e TEXTO.
 - Nunca anexar print/frame da mulher original como referência: mistura o rosto e ativa o filtro.
 - Roupa de corset/couro/bota alta no vídeo de origem: descrever como "structured top with high neckline, mid-length shorts/skirt, fully opaque".
 
+## O que a pesquisa diz (guias da comunidade + help center do Higgsfield)
+- O filtro roda em 2 etapas: no upload das referências e no processamento do prompt. Há o filtro do Higgsfield e o do provedor do modelo (ByteDance), que não é visível.
+- Gatilhos comuns mesmo sendo "seguro": roupa de banho, roupa de academia, foto de referência "borderline" e texto ambíguo. A COMBINAÇÃO imagem + texto pesa mais que cada um isolado, então às vezes só trocar o prompt não resolve: trocar a imagem.
+- Créditos de geração bloqueada voltam automaticamente.
+- O vídeo de referência é sinal de MOVIMENTO; a roupa e o visual vêm do prompt + imagens. Então dá pra trocar a roupa do vídeo descrevendo outra.
+- Menos referências = menos bug: 1 de identidade + 1 de corpo + 1 de movimento.
+- Anexar as referências na MESMA ordem em que são citadas no prompt.
+- Dizer a função de cada ref (face / proportions / outfit / motion & camera).
+- Vídeos longos (20–30s) costumam ter só ~12s bons; prefira 10–15s e junte.
+
 ## Checklist antes de gerar (Higgsfield)
 - Só @image1 e @image2 (e @image3 da roupa, se houver). Apagar refs extras.
 - Quality 720p (o padrão às vezes volta pra 480p).
