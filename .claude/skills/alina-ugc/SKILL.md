@@ -28,6 +28,15 @@ O filtro lê IMAGENS e TEXTO.
 - Vídeo de referência com foco no corpo (costas andando, rebolado) bloqueia: cortar só os trechos de frente.
 - Enquadrar selfie "from mid-chest up". Moletom "zipped halfway up".
 - Não clonar vídeos sensuais nem colocar pessoas reais sem consentimento.
+- Nunca anexar print/frame da mulher original como referência: mistura o rosto e ativa o filtro.
+- Roupa de corset/couro/bota alta no vídeo de origem: descrever como "structured top with high neckline, mid-length shorts/skirt, fully opaque".
+
+## Checklist antes de gerar (Higgsfield)
+- Só @image1 e @image2 (e @image3 da roupa, se houver). Apagar refs extras.
+- Quality 720p (o padrão às vezes volta pra 480p).
+- Áudio On quando o vídeo tem música/fala.
+- Duração = a do vídeo de referência (Seedance até 30s, Wan até 15s).
+- Rosto puxando pra mulher original: escrever "she must look like @image1, not like the woman in @video1" ou usar o elemento @alinaviktoria.
 
 ## Realismo (UGC de celular)
 - Câmera no braço: micro-shake constante, jolts ao gesticular, push-in/pull-back irregular, autofoco procurando no close, variação de exposição, motion blur.
